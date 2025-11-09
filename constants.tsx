@@ -39,8 +39,8 @@ export const POLES_DATA: Record<string, Pole> = {
       { id: 1, name: 'KAMAL EL-MOUZOUADE', expertise: 'Spécialiste en Chaîne Graphique et Impression Digitale', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' },
       { id: 2, name: 'GOT ACHRAF', expertise: 'Expert en Design Graphique & PAO', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' },
       { id: 3, name: 'BELGHAROUADI YASSINE', expertise: 'Spécialiste en Chaîne Graphique', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' },
-      { id: 4, name: 'Leamari abdllah', expertise: 'Expert en Design Graphique & PAO', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' }
-      { id: 5, name: 'MOUMEN JAMAI HIND', expertise: 'Expert en Design Graphique & PAO', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' }
+      { id: 4, name: 'Leamari abdllah', expertise: 'Expert en Design Graphique & PAO', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' },
+      { id: 5, name: 'MOUMEN JAMAI HIND', expertise: 'Expert en Design Graphique & PAO', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' },
       { id: 6, name: 'ISSAM OUSSAIR', expertise: 'PIE', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' }
     ],
   },
