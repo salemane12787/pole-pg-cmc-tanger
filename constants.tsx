@@ -24,10 +24,9 @@ export const OfpptLogo: React.FC = () => (
 
 export const BUILDING_MAP_DATA: BuildingMap = {
   title: 'Découvrez notre Zone Commune',
-  floor1: 'https://ik.imagekit.io/2pzcc0oar/WhatsApp%20Image%202025-11-03%20at%2020.18.18.jpeg?updatedAt=1762452563609',
-  floor2: 'https://ik.imagekit.io/2pzcc0oar/WhatsApp%20Image%202025-11-03%20at%2020.18.16%20(1).jpeg?updatedAt=1762452563718',
+  floor1: 'https://ik.imagekit.io/2pzcc0oar/RDC.png',
+  floor2: 'https://ik.imagekit.io/2pzcc0oar/ETAGE%201.png',
 };
-
 export const POLES_DATA: Record<string, Pole> = {
   graphique: {
     id: 'graphique',
@@ -37,9 +36,12 @@ export const POLES_DATA: Record<string, Pole> = {
       { id: 2, title: 'TS en Production et Impression Graphique', level: 'Niveau: Technicien Spécialisé' },
     ],
     instructors: [
-      { id: 1, name: '1', expertise: 'Spécialiste en Chaîne Graphique et Impression Digitale', imageUrl: '' },
-      { id: 2, name: '2', expertise: 'Expert en Design Graphique & PAO', imageUrl: '' },
-      { id: 3, name: '3', expertise: 'Photographe Professionnelle et Retouche d\'image', imageUrl: '' },
+      { id: 1, name: 'KAMAL EL-MOUZOUADE', expertise: 'Spécialiste en Chaîne Graphique et Impression Digitale', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' },
+      { id: 2, name: 'GOT ACHRAF', expertise: 'Expert en Design Graphique & PAO', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' },
+      { id: 3, name: 'BELGHAROUADI YASSINE', expertise: 'Spécialiste en Chaîne Graphique', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' },
+      { id: 4, name: 'Leamari abdllah', expertise: 'Expert en Design Graphique & PAO', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' }
+      { id: 5, name: 'MOUMEN JAMAI HIND', expertise: 'Expert en Design Graphique & PAO', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' }
+      { id: 6, name: 'ISSAM OUSSAIR', expertise: 'PIE', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' }
     ],
   },
   digital: {
@@ -57,9 +59,10 @@ export const POLES_DATA: Record<string, Pole> = {
         { id: 9, title: 'Cycle de découverte du numérique', level: 'Niveau: Qualification' },
     ],
     instructors: [
-      { id: 1, name: '4', expertise: 'Architecte Cloud & Spécialiste DevOps', imageUrl: '' },
-      { id: 2, name: '5', expertise: 'Data Scientist & Ingénieure Machine Learning', imageUrl: '' },
-      { id: 3, name: '6', expertise: 'Développeur Full-Stack (React, Node.js)', imageUrl: '' },
+      { id: 1, name: 'Yasser ejaja', expertise: 'Architecte Cloud & Spécialiste DevOps', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' },
+      { id: 2, name: 'Mohammed lebyed', expertise: 'Data Scientist & Ingénieure Machine Learning', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' },
+      { id: 3, name: 'Hamza ', expertise: 'Développeur Full-Stack (React, Node.js)', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' },
+      { id: 4, name: 'Anas ', expertise: 'Développeur ', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' },
     ],
   },
   gestion: {
@@ -73,9 +76,9 @@ export const POLES_DATA: Record<string, Pole> = {
       { id: 5, title: 'Responsabilité Sociétale et environnementale des Entreprises (RSE)', level: 'Niveau: Technicien Spécialisé' },
     ],
     instructors: [
-      { id: 1, name: '7', expertise: 'Expert en Stratégie Commerciale', imageUrl: '' },
-      { id: 2, name: '8', expertise: 'Spécialiste E-commerce & Marketing Digital', imageUrl: '' },
-      { id: 3, name: '9', expertise: 'Consultant en Gestion et RSE', imageUrl: '' },
+      { id: 1, name: 'Azzikhnin Aabile', expertise: 'Expert en Stratégie Commerciale', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' },
+      { id: 2, name: 'El Mkharbch Ghizlane', expertise: 'Spécialiste E-commerce & Marketing Digital', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' },
+      { id: 3, name: 'LAHBABI MOHAMMED AMINE', expertise: 'Consultant en Gestion et RSE', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUggCtVsdiXKyUUy4PpbTy_24UzpgGlpccCohU27x7velqXZkcUd27a8XVf3y5bhOBtE&usqp=CAU' },
     ],
   },
 };
